@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Snippet Uploader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="your-video-file.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="container">
+        <h1>Code Snippet Uploader</h1>
+        <form id="codeForm">
+            <input type="text" id="codeTitle" placeholder="Code Title" required>
+            <textarea id="codeSnippet" placeholder="Enter your code here..." required></textarea>
+            <button type="submit">Upload Code</button>
+        </form>
+        <div id="codeDisplay"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
